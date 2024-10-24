@@ -23,4 +23,3 @@ VALUES
 (19, 233040019, 'Teguh Prihanto', '2005-09-24', 'Jl. Beringin No. 14', 812456719, 3, 9, 1),
 (20, 233040020, 'Umar Hadi', '2005-11-17', 'Jl. Merpati No. 5', 813456720, 4, 10, 1);
 
-select * from mahasiswa
