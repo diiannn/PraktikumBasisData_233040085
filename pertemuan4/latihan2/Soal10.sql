@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package ARRAY;
 
 import java.util.Scanner;
@@ -44,3 +45,16 @@ public class LarikInt {
 
     }
 }
+=======
+use pertemuan_4
+ 
+SELECT nama_mahasiswa 
+FROM mahasiswa 
+WHERE mahasiswa_id   IN (
+
+SELECT mahasiswa_id  
+FROM dpp_mahasiswa
+WHERE status_pembayaran = 'Lunas'
+);
+
+>>>>>>> 80f847d5f4a192ac46feb6f76ce44cd5e53f4c98
